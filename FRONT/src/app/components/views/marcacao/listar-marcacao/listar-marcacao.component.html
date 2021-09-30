@@ -11,7 +11,7 @@
             <span class="card-descri">ID funcionario:{{ marcacao.funcionarioId }}</span><br>
             <span class="card-descri">{{ marcacao.funcionario }}</span>
         </div>
-        <div>
+        <div class="horas">
             <div>
                 <span>Hora Entrada: </span>
                 <span>{{ marcacao.horaEntrada }}</span>
@@ -27,6 +27,10 @@
             <div>
                 <span>Hora Saida : </span>
                 <span>{{ marcacao.saida }}</span>
+            </div>
+            <div>
+                <br><span>Hora totais trabalhadas no dia : </span>
+                <span>{{ marcacao.horasT }}</span>
             </div>
         </div>
         <div class="editEdel">

@@ -28,7 +28,7 @@ export class EditarFuncionarioComponent implements OnInit {
     }
     this.serivce.update(funcionario).subscribe(funcionario => {
         console.log(funcionario);
-        this.router.navigate([""]);
+        this.router.navigate(["funcionario/listar"]);
     })
 
 

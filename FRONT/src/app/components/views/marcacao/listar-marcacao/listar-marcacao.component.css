@@ -24,6 +24,10 @@ span.info-marca {
 
 div.card-conteudo {
     padding: 25px;
+    text-align: justify;
+}
+div.horas {
+    text-align: justify;
 }
 
 span.card-descri {

@@ -8,4 +8,5 @@ export interface Marcacao
     horaSaidaAlmoco: string;
     horaVoltaAlmoco: string;
     saida: string;
+    horasT?: string;
 }
