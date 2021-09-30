@@ -5,7 +5,7 @@ POST https://localhost:5001/api/funcionario/create
 Content-Type: application/json
 
 {
-    "Nome" : "junin",
+    "Nome" : "fellipinto",
     "Pis"  : "123",
     "ValorHora": 17.5
 }
@@ -23,7 +23,7 @@ GET https://localhost:5001/api/funcionario/getbyid/1
 //Deletar
 
 ###
-DELETE https://localhost:5001/api/funcionario/delete/Fellipe
+DELETE https://localhost:5001/api/funcionario/delete/junin
 
 ###
 
@@ -32,8 +32,18 @@ PUT  https://localhost:5001/api/funcionario/update
 Content-Type: application/json
 
 {
-    "Id" : "1",
+    "Id" : "2",
     "Nome" : "Fellipe",
     "Pis"  : "654",
     "ValorHora": 17.5
 }
+
+
+
+
+
+
+
+
+
+

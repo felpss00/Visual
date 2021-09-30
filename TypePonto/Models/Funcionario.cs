@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace TypePonto.Models
 {
@@ -12,9 +13,8 @@ namespace TypePonto.Models
         public double ValorHora { get; set; }
         public DateTime DataAdm { get; set; }
 
-
         public override string ToString() =>
-            $"Nome: {Nome} | PIS: {Pis} | Valor Hora: {ValorHora} | Data de Admição: {DataAdm}";
+            $"Nome: {Nome} | PIS: {Pis} | Valor Hora: {ValorHora} | Data de Admição: {DataAdm.ToString(@"MM/DD/YYYY")}";
 
     }
 }

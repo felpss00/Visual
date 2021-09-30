@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 using TypePonto.Models;
 
@@ -10,6 +11,8 @@ namespace TypePonto.Data
         //Lista de propriedades que irão virar tableas no banco
 
         public DbSet<Funcionario> TabFuncionarios { get; set; }
+
+        public DbSet<Marcacao> TabMarcacoes { get; set; }
 
     }
 }

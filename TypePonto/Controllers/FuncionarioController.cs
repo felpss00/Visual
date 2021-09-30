@@ -53,11 +53,11 @@ namespace TypePonto.Controllers
 
         //Delete api/funcionario/delete/Ademilson
         [HttpDelete]
-        [Route("delete/{name}")]
-        public IActionResult DeleteByName([FromRoute] String name)
+        [Route("delete/{pis}")]
+        public IActionResult DeleteByName([FromRoute] String pis)
         {
             Funcionario funcionario = _context.TabFuncionarios.FirstOrDefault(
-                funcionario => funcionario.Nome == name
+                funcionario => funcionario.Pis == pis
             );
             if (funcionario == null)
             {
