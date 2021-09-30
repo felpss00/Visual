@@ -4,11 +4,11 @@ Content-Type: application/json
 
 {
     "FuncionarioId": 1,
-    "dataMarcacao": "2021-09-29T19:13:36",
-    "horaEntrada": "2021-09-29T19:13:36",
-    "horaSaidaAlmoco": "2021-09-29T19:13:36",
-    "horaVoltaAlmoco": "2021-09-29T19:13:36",
-    "saida": "2021-09-29T19:13:36"
+    "dataMarcacao": "2021-09-29T08:00:00",
+    "horaEntrada": "2021-09-29T08:00:00",
+    "horaSaidaAlmoco": "2021-09-29T12:00:00",
+    "horaVoltaAlmoco": "2021-09-29T12:00:00",
+    "saida": "2021-09-29T18:00:00"
 
 }
 

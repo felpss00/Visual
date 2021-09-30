@@ -24,6 +24,7 @@ namespace TypePonto.Controllers
         [Route("create")]
         public IActionResult Create([FromBody] Funcionario funcionario)
         {
+            funcionario.calculoData();
             _context.TabFuncionarios.Add(funcionario);
             _context.SaveChanges();
             return Created("", funcionario);

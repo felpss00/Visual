@@ -5,7 +5,7 @@ POST https://localhost:5001/api/funcionario/create
 Content-Type: application/json
 
 {
-    "Nome" : "fellipinto",
+    "Nome" : "fellipe",
     "Pis"  : "123",
     "ValorHora": 17.5
 }

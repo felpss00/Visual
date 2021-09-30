@@ -28,8 +28,10 @@ namespace TypePonto.Controllers
                 f => f.Id == marcacao.FuncionarioId
 
             );
+            marcacao.calculo();
             _context.TabMarcacoes.Add(marcacao);
             _context.SaveChanges();
+
 
             return Created("", marcacao);
         }
